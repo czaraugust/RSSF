@@ -1,0 +1,133 @@
+set 25, 2018 4:42:46 PM jsensor.Main run
+SEVERE: null
+java.util.NoSuchElementException
+	at it.unimi.dsi.fastutil.ints.IntRBTreeSet.firstInt(IntRBTreeSet.java:1082)
+	at jsensor.nodes.events.EventTimeQueue.getFirst(EventTimeQueue.java:23)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:62)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+set 25, 2018 4:43:23 PM jsensor.Main run
+SEVERE: null
+java.util.NoSuchElementException
+	at it.unimi.dsi.fastutil.ints.IntRBTreeSet.firstInt(IntRBTreeSet.java:1082)
+	at jsensor.nodes.events.EventTimeQueue.getFirst(EventTimeQueue.java:23)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:62)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+set 25, 2018 4:43:42 PM jsensor.Main run
+SEVERE: null
+java.util.NoSuchElementException
+	at it.unimi.dsi.fastutil.ints.IntRBTreeSet.firstInt(IntRBTreeSet.java:1082)
+	at jsensor.nodes.events.EventTimeQueue.getFirst(EventTimeQueue.java:23)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:62)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+set 25, 2018 4:43:51 PM jsensor.Main run
+SEVERE: null
+java.util.NoSuchElementException
+	at it.unimi.dsi.fastutil.ints.IntRBTreeSet.firstInt(IntRBTreeSet.java:1082)
+	at jsensor.nodes.events.EventTimeQueue.getFirst(EventTimeQueue.java:23)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:62)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+set 25, 2018 4:44:22 PM jsensor.Main run
+SEVERE: null
+java.util.NoSuchElementException
+	at it.unimi.dsi.fastutil.ints.IntRBTreeSet.firstInt(IntRBTreeSet.java:1082)
+	at jsensor.nodes.events.EventTimeQueue.getFirst(EventTimeQueue.java:23)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:62)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+set 25, 2018 4:46:05 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at jsensor.nodes.Node.getRandom(Node.java:85)
+	at jsensor.nodes.Node.getRandomNode(Node.java:96)
+	at projects.Flooding.Nodes.SensorNode.send(SensorNode.java:46)
+	at projects.Flooding.CustomGlobal.preRound(CustomGlobal.java:34)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+set 25, 2018 4:46:50 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at jsensor.nodes.Node.getRandom(Node.java:85)
+	at jsensor.nodes.Node.getRandomNode(Node.java:96)
+	at projects.Flooding.Nodes.SensorNode.send(SensorNode.java:46)
+	at projects.Flooding.CustomGlobal.preRound(CustomGlobal.java:34)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+set 25, 2018 4:47:05 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at jsensor.nodes.Node.getRandom(Node.java:85)
+	at jsensor.nodes.Node.getRandomNode(Node.java:96)
+	at projects.Flooding.Nodes.SensorNode.send(SensorNode.java:46)
+	at projects.Flooding.CustomGlobal.preRound(CustomGlobal.java:34)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+set 25, 2018 4:50:38 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at jsensor.nodes.Node.getRandom(Node.java:85)
+	at jsensor.nodes.Node.getRandomNode(Node.java:96)
+	at projects.Flooding.Nodes.SensorNode.send(SensorNode.java:46)
+	at projects.Flooding.CustomGlobal.preRound(Unknown Source)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+set 25, 2018 4:50:41 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at jsensor.nodes.Node.getRandom(Node.java:85)
+	at jsensor.nodes.Node.getRandomNode(Node.java:96)
+	at projects.Flooding.Nodes.SensorNode.send(SensorNode.java:46)
+	at projects.Flooding.CustomGlobal.preRound(CustomGlobal.java:37)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+set 25, 2018 4:52:17 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at jsensor.nodes.Node.getRandom(Node.java:85)
+	at jsensor.nodes.Node.getRandomNode(Node.java:96)
+	at projects.Flooding.Nodes.SensorNode.send(SensorNode.java:46)
+	at projects.Flooding.CustomGlobal.preRound(CustomGlobal.java:41)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+set 25, 2018 4:53:20 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at jsensor.nodes.Node.getRandom(Node.java:85)
+	at jsensor.nodes.Node.getRandomNode(Node.java:96)
+	at projects.Flooding.Nodes.SensorNode.send(SensorNode.java:46)
+	at projects.Flooding.CustomGlobal.preRound(CustomGlobal.java:41)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+set 25, 2018 4:54:26 PM jsensor.Main run
+SEVERE: null
+java.lang.NullPointerException
+	at jsensor.nodes.Node.getRandom(Node.java:85)
+	at jsensor.nodes.Node.getRandomNode(Node.java:96)
+	at projects.Flooding.Nodes.SensorNode.send(SensorNode.java:46)
+	at projects.Flooding.CustomGlobal.preRound(CustomGlobal.java:41)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
