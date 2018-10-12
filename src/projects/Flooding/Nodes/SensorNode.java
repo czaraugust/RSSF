@@ -4,9 +4,7 @@ import jsensor.nodes.Node;
 import jsensor.nodes.messages.Inbox;
 import jsensor.nodes.messages.Message;
 import jsensor.runtime.Jsensor;
-import projects.Flooding.Messages.FloodingMessage;
 import projects.Flooding.Messages.SampleMessage;
-import projects.Flooding.Timers.FloodingTimer;
 
 import java.util.LinkedList;
 import java.util.Random;
@@ -18,54 +16,62 @@ import java.util.Random;
 public class SensorNode extends Node {
     public double energy = 0.5;
     public LinkedList<Long> messagesIDs;
+    
+    @Override
+    public void onCreation() {
+    	//initializes the list of messages received by the node.
+        this.messagesIDs = new LinkedList<Long>();
+    }
+    
     @Override
     public void handleMessages(Inbox inbox) {
         while (inbox.hasMoreMessages()) {
             Message message = inbox.getNextMessage();
+            //System.out.println("Lead: menssage recived " + count);
+            if (message instanceof SampleMessage) {
+                SampleMessage sampleMessage = (SampleMessage) message;
+                
+            	Node destination = this.getRandomNode("SinkNode");
 
-            if (message instanceof FloodingMessage) {
-                FloodingMessage floodingMessage = (FloodingMessage) message;
+                SampleMessage newMessage = new SampleMessage(this, destination, 0, "" + this.getID(), this.getChunk());
+                
+                newMessage.setMsg("Leade: " + this.getID() + ", " + sampleMessage.getMsg());
+                Jsensor.log("time: " + Jsensor.currentTime + "\t sensorID: " + this.getID() + "\t sendTo: " + destination.getID());
 
+                this.energy -= cost(newMessage, destination.getID());
+                this.unicast(newMessage, destination);
             }
         }
     }
 
-    @Override
-    public void onCreation() {
-//initializes the list of messages received by the node.
-        this.messagesIDs = new LinkedList<Long>();
+    public boolean sendTo(int destinationId) {
+    	Random r = new Random();
+    	
+        Node destination = Jsensor.getNodeByID(destinationId);
 
-        int time = 1;
-        FloodingTimer ft = new FloodingTimer();
-        ft.startRelative(time, this);
-    }
-
-    public boolean send() {
-
-        Node node = Jsensor.getNodeByID(1);
-        Node destination = node.getRandomNode("SinkNode");
-
-        SampleMessage message = new SampleMessage(node, destination, 0, "" + node.getID(), node.getChunk());
-
-        String messagetext = "" + Integer.toString(node.getID()) + " - ";
+        SampleMessage message = new SampleMessage(this, destination, 0, "" + this.getID(), this.getChunk());
+        
+        int temp = r.nextInt((30 - 25) + 1) + 25;
+        String messagetext = "Send from: " + Integer.toString(this.getID()) + ", Temp: " + temp;
 
         message.setMsg(messagetext);
-        Jsensor.log("time: " + Jsensor.currentTime + "\t sensorID: " + node.getID() + "\t sendTo: " + destination.getID());
+        Jsensor.log("time: " + Jsensor.currentTime + "\t sensorID: " + this.getID() + "\t sendTo: " + destination.getID());
 
-        //GenerateFilesOmnet.addStartNode(this.node.getID() -1, destination.getID() -1, Jsensor.currentTime);
-
-        Random r = new Random();
         double p = r.nextDouble();
 
-        this.energy -= cost(message);
-        if (p > 0.5) {
-            node.unicast(message, destination);
+        this.energy -= cost(message, destinationId);
+        if (p > 0.2) {
+            this.unicast(message, destination);
             return true;
         } return false;
     }
 
-    public double cost(SampleMessage msg) {
+    public double cost(SampleMessage msg, int destinationId) {
         int bits = msg.getMsg().length() * 8;
-        return bits * 5 * 10e-9;
+        jsensor.nodes.Node node = Jsensor.getNodeByID(destinationId);
+        double dX = this.position.getPosX() - node.getPosition().getPosX();
+        int dY = this.position.getPosY() - node.getPosition().getPosY();
+        double distance = Math.sqrt(Math.pow(dX, 2) + Math.pow(dY, 2));
+        return bits * 5 * 10e-9 * distance;
     }
 }

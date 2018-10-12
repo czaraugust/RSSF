@@ -131,3 +131,686 @@ java.lang.NullPointerException
 	at jsensor.Main.run(Main.java:162)
 	at jsensor.Main.main(Main.java:78)
 
+out 08, 2018 12:42:00 PM jsensor.Main run
+GRAVE: null
+java.lang.NullPointerException
+	at projects.Flooding.Nodes.SensorNode.sendTo(SensorNode.java:46)
+	at projects.Flooding.CustomGlobal.preRound(CustomGlobal.java:61)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:12 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:13 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:14 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:15 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:16 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:17 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:18 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 08, 2018 2:37:19 PM jsensor.nodes.Node getRandomNode
+GRAVE: null
+out 11, 2018 9:52:57 AM jsensor.Main run
+GRAVE: null
+java.lang.NullPointerException
+	at projects.Flooding.Nodes.SensorNode.sendTo(SensorNode.java:76)
+	at projects.Flooding.CustomGlobal.preRound(CustomGlobal.java:54)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+out 11, 2018 9:56:13 AM jsensor.Main run
+GRAVE: null
+java.lang.NullPointerException
+	at projects.Flooding.Nodes.SensorNode.sendTo(SensorNode.java:76)
+	at projects.Flooding.CustomGlobal.preRound(CustomGlobal.java:54)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+out 11, 2018 9:57:17 AM jsensor.Main run
+GRAVE: null
+java.lang.NullPointerException
+	at projects.Flooding.Nodes.SensorNode.sendTo(SensorNode.java:76)
+	at projects.Flooding.CustomGlobal.preRound(CustomGlobal.java:54)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+out 11, 2018 9:58:18 AM jsensor.Main run
+GRAVE: null
+java.lang.NullPointerException
+	at projects.Flooding.Nodes.SensorNode.sendTo(SensorNode.java:76)
+	at projects.Flooding.CustomGlobal.preRound(CustomGlobal.java:54)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
