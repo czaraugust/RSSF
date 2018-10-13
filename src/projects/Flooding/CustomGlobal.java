@@ -20,25 +20,12 @@ public class CustomGlobal extends AbsCustomGlobal {
 
     @Override
     public void preRun() {
+    	Kmeans km = new Kmeans(4, Jsensor.getNumNodes());
+    	km.run();
+    	
     	SensorNode sn1 = (SensorNode) Jsensor.getNodeByID(1);
     	for(int i = 2; i <= 50; i++) {
     		sn1.sendControlTo(i, 1);
-    	}
-    	
-    	for(int i = 1; i <= Jsensor.getNumNodes(); i++) {
-    		jsensor.nodes.Node node = Jsensor.getNodeByID(i);
-        	if (node instanceof SensorNode) {
-        		System.out.print("Node: " + i + " Neighbors: ");
-        		for(int j = 1; j <= Jsensor.getNumNodes(); j++) {
-        			jsensor.nodes.Node neighbor = Jsensor.getNodeByID(i);
-                	if (neighbor instanceof SensorNode) {
-                		if(((SensorNode) node).distanceTo(j) <= 25) {
-                			System.out.print(j + ", ");
-                		}
-                	}
-        		}
-        		System.out.println("");
-        	}
     	}
     }
 

@@ -121,7 +121,7 @@ public class SensorNode extends Node {
     public double distanceTo(int destinationId) {
     	jsensor.nodes.Node node = Jsensor.getNodeByID(destinationId);
         double dX = this.position.getPosX() - node.getPosition().getPosX();
-        int dY = this.position.getPosY() - node.getPosition().getPosY();
+        double dY = this.position.getPosY() - node.getPosition().getPosY();
         double distance = Math.sqrt(Math.pow(dX, 2) + Math.pow(dY, 2));
         return distance;
     }
