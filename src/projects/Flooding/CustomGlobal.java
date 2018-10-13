@@ -20,7 +20,26 @@ public class CustomGlobal extends AbsCustomGlobal {
 
     @Override
     public void preRun() {
+    	SensorNode sn1 = (SensorNode) Jsensor.getNodeByID(1);
+    	for(int i = 2; i <= 50; i++) {
+    		sn1.sendControlTo(i, 1);
+    	}
     	
+    	for(int i = 1; i <= Jsensor.getNumNodes(); i++) {
+    		jsensor.nodes.Node node = Jsensor.getNodeByID(i);
+        	if (node instanceof SensorNode) {
+        		System.out.print("Node: " + i + " Neighbors: ");
+        		for(int j = 1; j <= Jsensor.getNumNodes(); j++) {
+        			jsensor.nodes.Node neighbor = Jsensor.getNodeByID(i);
+                	if (neighbor instanceof SensorNode) {
+                		if(((SensorNode) node).distanceTo(j) <= 25) {
+                			System.out.print(j + ", ");
+                		}
+                	}
+        		}
+        		System.out.println("");
+        	}
+    	}
     }
 
     @Override
@@ -28,7 +47,7 @@ public class CustomGlobal extends AbsCustomGlobal {
     	rounds++;
         if (rounds >= 500)
             Jsensor.runtime.setAbort(true);
-        System.out.println("r:"+ rounds);
+        //System.out.println("r:"+ rounds);
         double maxEnergy = 0;
         int maxEnergyId = 0;
         
@@ -37,28 +56,23 @@ public class CustomGlobal extends AbsCustomGlobal {
         	if (node instanceof SensorNode) {
         		
                 SensorNode sensorNode = (SensorNode) node;
+                //System.out.println("Id: " + i + ", energy: " + sensorNode.energy);
                 if(sensorNode.energy > maxEnergy) {
                 	maxEnergy = sensorNode.energy;
                 	maxEnergyId = i;
                 }
         	}
         }
-       System.out.println("Lider: " + maxEnergyId);
+        SensorNode sn = (SensorNode) Jsensor.getNodeByID(maxEnergyId);
         for (int i = 1; i <= Jsensor.getNumNodes(); i++) {
             jsensor.nodes.Node node = Jsensor.getNodeByID(i);
-            if (node instanceof SensorNode && i != maxEnergyId) {
+            if (node instanceof SensorNode) {
                 SensorNode sensorNode = (SensorNode) node;
-                boolean result = sensorNode.sendTo(maxEnergyId);
+                sn.sendControlTo(i, 1);
+                boolean result = sensorNode.send();
                 if(result)
                     count++;
             }
-        }
-        jsensor.nodes.Node node = Jsensor.getNodeByID(maxEnergyId);
-        if (node instanceof SensorNode) {
-            SensorNode sensorNode = (SensorNode) node;
-            boolean result = sensorNode.sendTo(51);
-            if(result)
-                count++;
         }
     }
 

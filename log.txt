@@ -814,3 +814,30 @@ java.lang.NullPointerException
 	at jsensor.Main.run(Main.java:162)
 	at jsensor.Main.main(Main.java:78)
 
+out 12, 2018 12:19:18 PM jsensor.Main run
+GRAVE: null
+java.lang.NullPointerException
+	at projects.Flooding.Nodes.SensorNode.send(SensorNode.java:78)
+	at projects.Flooding.CustomGlobal.preRound(CustomGlobal.java:56)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+out 12, 2018 12:23:35 PM jsensor.Main run
+GRAVE: null
+java.lang.NullPointerException
+	at projects.Flooding.Nodes.SensorNode.send(SensorNode.java:80)
+	at projects.Flooding.CustomGlobal.preRound(CustomGlobal.java:56)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+
+out 12, 2018 12:24:08 PM jsensor.Main run
+GRAVE: null
+java.lang.NullPointerException
+	at projects.Flooding.Nodes.SensorNode.send(SensorNode.java:80)
+	at projects.Flooding.CustomGlobal.preRound(CustomGlobal.java:56)
+	at jsensor.runtime.AssynchronousRuntime.run(AssynchronousRuntime.java:84)
+	at jsensor.Main.run(Main.java:162)
+	at jsensor.Main.main(Main.java:78)
+

@@ -1,0 +1,34 @@
+Settings --------------------
+project Name: Flooding
+dimX: 100
+dimY: 100
+cell Size: 150
+debug: true
+log: true
+seed Random: 1587632589
+number Of Threads: 2
+number Of Chunks: 2
+Mobility: false
+Facts: false
+
+Message Transmission Model: projects.Flooding.MessageTransmissionModels.ConstantTime
+Sensor: projects.Flooding.Nodes.SensorNode
+Number: 50
+Distribution Model: projects.Flooding.DistributionModels.RandomDistribution
+Connectivity Model: projects.Flooding.ConnectivityModels.FloodingNodeConectivity
+Node Radio: 2
+Communication Radio: 150
+Sensor: projects.Flooding.Nodes.SinkNode
+Number: 1
+Distribution Model: projects.Flooding.DistributionModels.RandomDistribution
+Connectivity Model: projects.Flooding.ConnectivityModels.FloodingNodeConectivity
+Node Radio: 2
+Communication Radio: 150
+-----------------------------
+
+
+
+Generation of the nodes: 0.132 seconds
+time: 6001.0 (ms) -- 6,00 (s) -- 0,10 (m) -- 0,00 (h)
+memory comsuption: 105 MB
+number of events: 21937
