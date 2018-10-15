@@ -13,25 +13,28 @@ public class SampleMessage extends Message{
     private Node sender;
     private Node destination;
     private int hops;
+    private double senderEnergy;
     short chunk;
 
-    public SampleMessage(Node sender, Node destination, int hops, String message, byte chunk) {
+    public SampleMessage(Node sender, Node destination, int hops, String message, double senderEnergy, byte chunk) {
         //Call to create a new ID
         super(chunk);
         this.msg = message;
         this.sender = sender;
         this.destination = destination;
         this.hops = hops;
+        this.senderEnergy = senderEnergy;
         this.chunk = chunk;
     }
 
-    private SampleMessage(String msg, Node sender, Node destination, int hops, long ID) {
+    private SampleMessage(String msg, Node sender, Node destination, int hops, double senderEnergy, long ID) {
         //Call to set the ID
         this.setID(ID);
         this.msg = msg;
         this.sender = sender;
         this.destination = destination;
         this.hops = hops;
+        this.senderEnergy = senderEnergy;
     }
 
     public String getMsg(){
@@ -69,9 +72,17 @@ public class SampleMessage extends Message{
     public void setSender(Node sender) {
         this.sender = sender;
     }
+    
+    public double getSenderEnergy() {
+        return senderEnergy;
+    }
+
+    public void setSenderEnergy(double senderEnergy) {
+        this.senderEnergy = senderEnergy;
+    }
 
     @Override
     public Message clone() {
-        return new SampleMessage(msg, sender, destination, hops+1,this.getID());
+        return new SampleMessage(msg, sender, destination, hops+1, senderEnergy, this.getID());
     }
 }
