@@ -20,10 +20,10 @@ public class SinkNode extends Node {
     public void handleMessages(Inbox inbox) {
         while (inbox.hasMoreMessages()) {
             Message message = inbox.getNextMessage();
-            //System.out.println("Sink: menssage recived " + count);
+           // System.out.println("Sink: menssage recived " + count);
             if (message instanceof SampleMessage) {
                 SampleMessage sampleMessage = (SampleMessage) message;
-                //System.out.println("Sink: " + sampleMessage.getMsg());
+               // System.out.println("Sink: " + sampleMessage.getMsg());
                 count++;
             }
         }
