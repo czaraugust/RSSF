@@ -19,7 +19,7 @@ public class Kmeans {
 		nodesCluster = new int[nodes];
 	}
 	
-	public void run() {
+	public int[] run() {
 		Random r = new Random();
 		
 		for(int i = 0; i < k; i++) {
@@ -32,6 +32,8 @@ public class Kmeans {
 			calculateNewCentroids();
 			asssociateNodes();
 		}
+		
+		return nodesCluster;
 	}
 	
     public double distance(double nx, double ny, double cx, double cy) {
@@ -53,7 +55,6 @@ public class Kmeans {
 						nodesCluster[i] = j+1;
 					}
 				}
-				System.out.println("Node: " + i + ", Cluster: " + nodesCluster[i]);
 			}
 		}
     }

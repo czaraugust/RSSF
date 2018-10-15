@@ -16,7 +16,7 @@ public class SampleTimer extends TimerEvent{
 		
 		Node destination = this.node.getRuntime().getSensorByID(51);
 	    
-	    SampleMessage message = new SampleMessage(this.node, destination, 0, ""+this.node.getID(), this.node.getChunk());
+	    SampleMessage message = new SampleMessage(this.node, destination, 0, ""+this.node.getID(), 0, this.node.getChunk());
 	    
 	    String messagetext = ""+Integer.toString(this.node.getID()) + " - Timer event";
 	    
